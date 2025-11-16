@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="default">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MedHaven | Book Appointment</title>
+  <link rel="stylesheet" href="appointment.css" />
+</head>
+<body>
+
+<header>
+  <h1>MedHaven</h1> 
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="appointment-page">
+  <div class="appointment-card">
+    <h2>Book an Appointment</h2>
+
+    <form action="#" method="post" class="appointment-form" novalidate>
+      <div class="form-grid">
+        <div class="field">
+          <label for="fullName">Full Name</label>
+          <input id="fullName" name="fullName" type="text" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="field">
+          <label for="phone">Phone Number</label>
+          <input id="phone" name="phone" type="tel" placeholder="Enter your phone number" required>
+        </div>
+
+        <div class="field">
+          <label for="service">Select Service</label>
+          <select id="service" name="service" required>
+            <option value="" selected disabled>Select a service</option>
+            <option>General Consultation</option>
+            <option>Women's Health</option>
+            <option>Pediatrics</option>
+            <option>Immunizations</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="date">Preferred Date</label>
+          <input id="date" name="date" type="date" max="2030-12-31" min="2020-01-01" required>
+        </div>
+
+        <div class="field">
+          <label for="time">Preferred Time</label>
+          <input id="time" name="time" type="time" required>
+        </div>
+
+        <div class="field full-width">
+          <label for="message">Message (Optional)</label>
+          <textarea id="message" name="message" placeholder="Write your message..." rows="4"></textarea>
+        </div>
+      </div>
+
+      <div class="form-foot">
+        <button type="submit" class="submit-btn">Book Appointment</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 MedHaven | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
