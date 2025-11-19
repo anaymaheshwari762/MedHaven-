@@ -1,19 +1,23 @@
+*{
+  box-sizing: border-box;
+}
 body {
-  font-family: 'Arial', sans-serif;
-  background: linear-gradient(to right, #00cec9, #00b894);
-  color: #fff;
+  font-family: sans-serif;  
+  background: white;
+  color: black;
   margin: 0;
   line-height: 1.7;
 }
 
 header h1 {
-  color: white; /* contrast with opaque navbar background */
+  color: white; 
   font-size: 28px;
 }
 
 header {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0);
   padding: 7px 20px;
+  height: 90px;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -33,10 +37,11 @@ nav a {
   color: #fff;
   font-weight: bold;
   transition: 0.3s;
+  text-decoration: none; 
 }
 
 nav a:hover {
-  color: yellow;
+  color: rgb(31, 229, 13); 
   text-shadow: 0 0 12px white;
 }
 
@@ -47,20 +52,24 @@ main {
 }
 
 .container {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0);
   padding: 40px 30px;
   margin-bottom: 40px;
   border-radius: 15px;
   box-shadow: 0 8px 25px rgba(0,0,0,0.3);
   transition: 0.3s;
-  color: #fff9c4;
+  color: white;
 }
+
 
 .container:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0,);
   transform: translateY(-5px);
 }
-
+.container h2 {
+    color: white;
+    font-weight: bolder;
+}
 section h2 {
   font-size: 32px;
   margin-bottom: 20px;
@@ -114,15 +123,12 @@ ul.values li {
 }
 
 footer {
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0);
   text-align: center;
   padding: 40px 20px;
+  color: white;
   font-size: 16px;
 }
 .container p {
     color: #fff9c4;
-}
-.container h2 {
-    color: black;
-    font-weight: bolder;
 }

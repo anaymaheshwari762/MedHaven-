@@ -7,7 +7,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #00c853, #00b0ff); /* green to blue gradient */
+  background: white; /* green to blue gradient */
   color: #333;
   min-height: 100vh;
   display: flex;
@@ -16,7 +16,7 @@ body {
 
 /* ===== Header & Navigation ===== */
 header {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0);
   padding: 7px 20px;
   position: sticky;
   top: 0;
@@ -24,7 +24,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+  height: 90px; 
+} 
 
 header h1 {
   color: white;
@@ -48,7 +49,7 @@ nav a {
 }
 
 nav a:hover {
-  color: yellow;
+  color: rgb(31, 229, 13);
   text-shadow: 0 0 12px white;
 }
 
@@ -141,7 +142,7 @@ nav a:hover {
 
 /* ===== Footer ===== */
 footer {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0);
   text-align: center;
   color: #fff;
   padding: 1rem 0;
