@@ -4,17 +4,14 @@
 body {
   font-family: sans-serif;
   margin: 0;
-
- 
   background: white;
   color: black;
-  margin: 0;
-  line-height: 1.7;
+  line-height: 1.7; 
 }
 
 header {
   background: rgba(0,0,0);
-  padding: 7px 20px;
+  padding: 10px 20px;
   position: sticky;
   top: 0;
   color: white;
@@ -67,15 +64,9 @@ input[type="submit"] {
   cursor: pointer;
   transition: 0.3s;
 }
-
-input[type="submit"]:hover {
-  /* background: #00cec9; */
-}
-
-
-
-
-
+/* input[type="submit"]:hover {
+  background: #00cec9;
+} */
 header h1 {
   font-size: 28px;
 }
@@ -112,14 +103,14 @@ main {
   padding: 35px 25px;
   margin-bottom: 40px;
   border-radius: 15px;
-  box-shadow: 0 8px 25px rgba(0,0,0);
+  box-shadow: 0 8px 25px rgb(0, 0, 0);
   transition: 0.3s;
   color: white;
 }
 
 .container:hover {
-  background: rgba(0, 0, 0); 
-  transform: translateY(-5px);
+  background: rgb(0, 0, 0); 
+  transform: translateY(-5px); 
 }
 
 section h2 {
@@ -164,6 +155,5 @@ footer {
 }
 
 a{
-    color: rgb(8, 74, 154);
-
-}
+  color: rgb(8, 74, 154);
+} 
