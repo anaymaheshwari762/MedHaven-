@@ -186,7 +186,7 @@ section {
   .hero-img { margin: 0 auto; max-width: 90%; }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .appointment-card { padding: 20px; min-height: auto; }
   .form-grid { grid-template-columns: 1fr; gap: 14px; }
   .appointment-card h2 { font-size: 20px; }
@@ -210,7 +210,7 @@ footer {
   color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   header h1 { font-size: 22px; }
   nav ul { flex-direction: column; gap: 12px; }
   button { width: 100%; padding: 12px 0; }
@@ -233,12 +233,11 @@ footer {
 }
 
 .wel34 {
-  width: 1100px;
-  height: 100px;
+  width: 90vw;
   align-items: center;
   margin-top: 40px;
-  margin-left: 200px;
+  margin-left: 50px; 
   font-size: 18px;
   background-color: rgb(182, 211, 204);
   border-radius: 10px;
-}
+} 
