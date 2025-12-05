@@ -9,15 +9,15 @@ body {
 }
 header {
   background: rgba(0,0,0);
-  padding: 7px 20px;
+  padding: 10px 20px;
   position: sticky;
   top: 0;
+  color: white;
   z-index: 100;
   display: flex;
   align-items: center;
-  color: white;
   justify-content: space-between;
-  height: 90px;  
+  height: 90px; 
 }
 nav ul {
   display: flex;
@@ -80,4 +80,64 @@ footer {
 section h2 {
     color: black;
     font-weight: bolder;
+}
+
+@media (max-width: 992px) {
+  nav ul {
+    display: flex;
+    gap: 25px;
+  }
+
+  header {
+    padding: 10px 10px;
+  }
+
+  .team {
+    display: flex;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+    gap: 10px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .card {
+    min-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 15px 5px;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .team {
+    gap: 20px;
+  }
+
+  .card {
+    min-width: 100%;
+    margin: 10px 0;
+  }
+
+  section {
+    padding: 40px 10px;
+  }
 }
